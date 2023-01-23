@@ -1,0 +1,73 @@
+.mainSection {
+  margin: auto;
+  margin-top: 3rem;
+  width: fit-content;
+}
+
+.mainSection input[type="text"] {
+  height: 1.5rem;
+  width: 200px;
+}
+
+.mainSection .inputs {
+  width: fit-content;
+  margin: auto;
+}
+
+.mainSection .or {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.mainSection .uploadImageSection {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainSection .uploadImage {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.mainSection .base64Section {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.base64Section button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border: 1px solid black;
+  height: fit-content;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.base64Section button:hover {
+  background-color: rgb(100, 100, 100, 0.3);
+}
+
+.mainSection .base64URI {
+  height: 3rem;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 3px;
+  overflow: hidden;
+  /* max-width: 400px; */
+  margin-right: 1rem;
+}
+
+.mainSection img {
+  margin-top: 1rem;
+  /*max-height: 200px;*/
+  /*width:  100%;*/
+}

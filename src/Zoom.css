@@ -1,0 +1,14 @@
+.Zoom{
+	display: flex;
+	width: 200px;
+	justify-content: space-between;
+	position: fixed;
+	top:  0;
+	left:  0;
+}
+
+.Zoom input{
+	width: 100px;
+	/*width:  fit-content;*/
+}
+
